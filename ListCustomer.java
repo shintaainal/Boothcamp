@@ -13,10 +13,9 @@ public class ListCustomer {
         Scanner input = new Scanner(System.in);
         List<String> customerList = new ArrayList<>();
 
-
         System.out.println("Masukan jumlah data: " );
         int jumlah = input.nextInt();
-       // System.out.println("Masukan nama Customer:");
+
         for( int i=1; i<=jumlah; i++){
             System.out.println("Masukan nama Customer:" +i);
             customerList.add(input.next());
